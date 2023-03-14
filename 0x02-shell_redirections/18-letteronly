@@ -1,2 +1,2 @@
 31/bin/bash
-grep ^{{:alpha:}} /etc/passwd
+grep -v "bin" /etc/passwd
